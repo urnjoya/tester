@@ -1,0 +1,22 @@
+{
+    "name": "Tester",
+    "short_name": "Tester",
+    "start_url": "/dona/Calculator/index.html",
+    "display": "standalone",
+    "background-color": "#FFFFFF",
+    "theme_color": "#007BFF",
+    "icons": [
+                {
+            "src": "icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
