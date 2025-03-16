@@ -1,9 +1,8 @@
 const CACHE_NAME = "pwa-cache-v3";
 const urlsToCache = [
     "index.html",
-    "style.css",
-    "app.js",
-    "offline.html"
+    "style/style.css",
+    "js/app.js"
 ];
 
 console.log("Service Worker is being installed");
