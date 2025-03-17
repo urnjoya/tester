@@ -1,8 +1,9 @@
 const CACHE_NAME = "pwa-cache-v3";
 const urlsToCache = [
-    "index.html",
-    "style/style.css",
-    "js/app.js"
+    "/tester/html/ui.html",
+    "/tester/style/style.css",
+    "/tester/js/app.js",
+    "tester/js/force_refresh.js"
 ];
 
 console.log("Service Worker is being installed");
@@ -39,7 +40,7 @@ self.addEventListener("active", Event => {
 });
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/dona/Calculator/sw-register.js')
+    navigator.serviceWorker.register('/tester/js/sw-register.js')
     .then(() => console.log("Service Worker Registered!"))
     .catch(err => console.error("Service Worker Registration Failed:", err));
 }
