@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tester</title>
+    <link rel="stylesheet" href="/tester/style/style.css">
+<!--     <link rel="manifest" href="/tester/json/manifest.json"> -->
+<!--     <script src="/tester/js/sw-register.js" defer></script> -->
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <body class="theme-light scroll-smooth">
+        <header class="w-full py-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white text-center">
+            <h1 class="text-4xl font-bold">
+                Discover Something New!
+            </h1>
+            <p class="text-xl mt-2">
+                Explore fascinating facts and information on a random topic.
+            </p>
+        </header>
+        <main class="p-6">
+            <!-- Hero Section -->
+            <section class="text-center py-12" id="hero">
+                <h2 class="text-3xl font-bold mb-4">
+                    Welcome to the World of Random Knowledge
+                </h2>
+                <p class="text-lg mb-6">
+                    Dive into a sea of information and discover something new every day.
+                </p>
+                <img alt="Colorful abstract background with vibrant gradients" class="mx-auto rounded-lg shadow-lg"
+                    height="400"
+                    src="https://storage.googleapis.com/a1aa/image/I6hRwOnRnheUOhSR-slJiblr979dkfEetoGTaJg5J-E.jpg"
+                    width="600" />
+            </section>
+            <!-- Information Section -->
+            <section
+                class="py-12 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 text-white rounded-lg shadow-lg"
+                id="information">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-4">
+                        Did You Know?
+                    </h2>
+                    <p class="text-lg mb-6">
+                        The honeybee is the only insect that produces food eaten by humans. Honeybees have been
+                        producing honey in the same way for over 150 million years.
+                    </p>
+                    <div class="flex justify-center items-center space-x-4">
+                        <i class="fas fa-apple-alt text-4xl">
+                        </i>
+                        <i class="fas fa-leaf text-4xl">
+                        </i>
+                        <i class="fas fa-seedling text-4xl">
+                        </i>
+                    </div>
+                    <p class="text-xl font-bold mt-6">
+                        Key Fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs
+                        that are over 3,000 years old and still perfectly edible.
+                    </p>
+                </div>
+            </section>
+            <!-- Interactive Section -->
+            <section class="py-12 text-center" id="interactive">
+                <h2 class="text-3xl font-bold mb-4">
+                    Interactive Fun
+                </h2>
+                <p class="text-lg mb-6">
+                    Click the button below to change its color!
+                </p>
+                <button
+                    class="px-6 py-3 bg-blue-500 text-white font-bold rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+                    id="colorButton" onclick="clearCacheAndRefresh()" >
+                    Click Me!
+                </button>
+            </section>
+        </main>
+        <footer class="w-full py-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white text-center">
+            <p>
+                © 2023 Random Topic Information. All rights reserved.
+            </p>
+            <button class="mt-2 px-4 py-2 bg-white text-purple-500 font-bold rounded-lg shadow-lg" id="themeToggle">
+                Toggle Theme
+            </button>
+        </footer>
+        <!-- <button id="installBtn">Install Button</button> -->
+        <script src="/tester/js/app.js"></script>
+    </body>
+
+</html>
