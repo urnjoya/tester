@@ -1,7 +1,7 @@
 {
     "name": "Tester",
     "short_name": "Tester",
-    "start_url": "/tester/html/ui.index",
+    "start_url": "/tester/index.html",
     "display": "standalone",
     "background-color": "#4bd6c6",
     "theme_color": "#007BFF",
