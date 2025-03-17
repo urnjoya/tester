@@ -7,9 +7,11 @@ document.getElementById('colorButton').addEventListener('click', function() {
     }
     this.classList.remove(currentColor);
     this.classList.add(newColor);
+    console.log("colorButton & force_Refresh button clicked");
 });
 
 document.getElementById('themeToggle').addEventListener('click', function() {
     document.body.classList.toggle('theme-dark');
     document.body.classList.toggle('theme-light');
+    console.log("themeToggle clicked");
 });
