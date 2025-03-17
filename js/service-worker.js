@@ -3,7 +3,7 @@ const urlsToCache = [
     "/tester/html/ui.html",
     "/tester/style/style.css",
     "/tester/js/app.js",
-    "tester/js/force_refresh.js"
+    "/tester/js/force_refresh.js"
 ];
 
 console.log("Service Worker is being installed");
