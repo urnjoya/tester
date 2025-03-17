@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.theme-dark {
+    background-color: #1a202c;
+    color: #cbd5e0;
+}
+.theme-light {
+    background-color: #edf2f7;
+    color: #2d3748;
+}
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
